@@ -1,0 +1,103 @@
+/* styles.css */
+/* CSS styles for the beautiful web page */
+/* Customize the styles as needed */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  #content {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .feature {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  #contact {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    
+    #contact-form input,
+    #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    }
+    
+    #contact-form textarea {
+    height: 150px;
+    }
+    
+    #contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    }
+    
+    #contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+    }
+    
+    footer {
+    background-color: #f8f8f8;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    }
