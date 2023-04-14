@@ -1,103 +1,54 @@
-/* styles.css */
-/* CSS styles for the beautiful web page */
-/* Customize the styles as needed */
-body {
-    font-family: Arial, sans-serif;
+/* Reset default styles */
+body, ul {
     margin: 0;
     padding: 0;
-  }
-  
-  header {
-    background-color: #007bff;
+}
+
+/* Header */
+header {
+    background-color: #3b3b3b;
     color: #fff;
-    text-align: center;
-    padding: 40px;
-  }
-  
-  header h1 {
-    font-size: 36px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
     margin: 0;
-  }
-  
-  header p {
-    font-size: 18px;
-  }
-  
-  #content {
-    padding: 40px;
-    text-align: center;
-  }
-  
-  #features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-  }
-  
-  .feature {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .feature img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .feature h3 {
-    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
     margin-top: 10px;
-  }
-  
-  .feature p {
-    font-size: 16px;
-  }
-  
-  #contact {
-    background-color: #f8f8f8;
-    padding: 40px;
-    text-align: center;
-  }
-  
-  #contact-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    #contact-form form {
-    max-width: 600px;
-    margin: 0 auto;
-    }
-    
-    #contact-form input,
-    #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-    }
-    
-    #contact-form textarea {
-    height: 150px;
-    }
-    
-    #contact-form input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
     cursor: pointer;
-    }
-    
-    #contact-form input[type="submit"]:hover {
-    background-color: #0056b3;
-    }
-    
-    footer {
-    background-color: #f8f8f8;
-    color: #777;
-    text-align: center;
+}
+
+nav ul li.active {
+    color: #ffd700;
+}
+
+/* News Feed */
+#news-feed {
     padding: 20px;
+}
+
+/* News Map */
+#news-map {
+    height: 400px;
+    background-color: #f2f2f2;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
     }
+
+    nav ul li {
+        font-size: 14px;
+    }
+}
